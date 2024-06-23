@@ -1,0 +1,49 @@
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #007bff;
+
+  padding: 20px;
+}
+
+.pricing-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.pricing-card h2,
+.pricing-card h3 {
+  margin: 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-card li {
+  margin: 10px 0;
+}
+
+.unavailable {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
